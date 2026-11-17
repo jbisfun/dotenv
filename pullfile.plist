@@ -40,9 +40,9 @@
 	<dict>
 		<key>precommit</key>
 		<array>
-			<string>cp "$PULL_ROOT/pullfile.plist" "$PULL_ROOT/dotenv/pullfile.plist" &amp;&amp; git -C "$PULL_ROOT/dotenv" add pullfile.plist</string>
-			<string>radar export &gt;/dev/null &amp;&amp; git -C "$PULL_ROOT/issues" add -A docs radar.db</string>
-			<string>just --justfile "$PULL_ROOT/wiki/justfile" publish</string>
+			<string>cp &quot;$PULL_ROOT/pullfile.plist&quot; &quot;$PULL_ROOT/dotenv/pullfile.plist&quot; &amp;&amp; git -C &quot;$PULL_ROOT/dotenv&quot; add pullfile.plist</string>
+			<string>radar export &gt;/dev/null &amp;&amp; git -C &quot;$PULL_ROOT/issues&quot; add -A docs radar.db</string>
+			<string>just --justfile &quot;$PULL_ROOT/wiki/justfile&quot; publish</string>
 		</array>
 		<key>postcommit</key>
 		<array/>
@@ -109,7 +109,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>f92461f9d919fef5bebaa5acd2396db181c7310c</string>
+			<string>9bf0d05904c00fc66162a75e154eb9f891101af3</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -167,7 +167,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>d6f2761d0ddff712d583dd30114f36bad3c5f434</string>
+			<string>540478e5a653d4b9b935274575bffdb408e67ab0</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -177,7 +177,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>53431b23299fb260234fb4467e9618a823c25694</string>
+			<string>6dda8f8322956a74900331059b3bef77f2634313</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -214,6 +214,8 @@
 			<string>https://github.com/jbisfun/radar</string>
 			<key>branch</key>
 			<string>main</string>
+			<key>commit</key>
+			<string>5287e7147d11daa664338d02e300e467ddf571d1</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -222,6 +224,8 @@
 			<string>https://github.com/jbisfun/issues</string>
 			<key>branch</key>
 			<string>main</string>
+			<key>commit</key>
+			<string>1625b4feb6beaa4187e59298a0b080d3c474ab6a</string>
 		</dict>
 	</array>
 </dict>
