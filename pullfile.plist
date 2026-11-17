@@ -77,7 +77,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>d65a436c5ad64b16907f2d8ce4ec3097465c2964</string>
+			<string>8b610fdbd62cb9d7e01ad0ce7d7face4d9f5ae94</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -106,6 +106,8 @@
 			<string>https://github.com/jbisfun/ycode-hermes.git</string>
 			<key>branch</key>
 			<string>main</string>
+			<key>commit</key>
+			<string>56d51988b6ae4e36c7388381c9fca3aa562a7ad0</string>
 		</dict>
 	</array>
 </dict>
