@@ -108,7 +108,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>e7a5fad7ffd356c6b742e6805c467577e3ef0ddb</string>
+			<string>2356d25d1ecee216be7f60d4f4351ea02c1db74d</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -176,7 +176,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>3cc2a54faf2677ae160b5449185d9f919d68ffe4</string>
+			<string>fa2ceaf2f54190d9420168b61ace4728236f1102</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -195,6 +195,8 @@
 			<string>https://github.com/jbisfun/ios-webusb</string>
 			<key>branch</key>
 			<string>main</string>
+			<key>commit</key>
+			<string>11d704dfd1f2c51be44f3b6fa56c4fb42fbe574a</string>
 		</dict>
 	</array>
 </dict>
