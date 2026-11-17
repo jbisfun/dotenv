@@ -109,7 +109,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>1f517cb8a5b54980bb24b9a32ece2d45e62cde82</string>
+			<string>46fdaa23f7d9f7fd6bb4531df245600d30b956b4</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -177,7 +177,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>8e796c33bd31d3c5a8b2e93da6d0acd54252a042</string>
+			<string>069a01afad4aa4a2a82499c0a49efd47d00203ee</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -206,6 +206,8 @@
 			<string>https://github.com/jbisfun/idl</string>
 			<key>branch</key>
 			<string>main</string>
+			<key>commit</key>
+			<string>2e480086295a55480fb9a3feb803807bbc54d43d</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -225,7 +227,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>dd0b6099fe9cfc39eb2345ce268784395f6b3792</string>
+			<string>75862f920ccfa7f5bb8a9e95d7e1b8e7c0af4ff8</string>
 		</dict>
 	</array>
 </dict>
