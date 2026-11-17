@@ -77,7 +77,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>5527aeeae63aefbbdc3ee2665eb791980dcf9a28</string>
+			<string>4e7a524612b9d2ee72891ebda9cb7a70b7ccd25b</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -107,7 +107,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>56d51988b6ae4e36c7388381c9fca3aa562a7ad0</string>
+			<string>6b01339392b6a569bd7edeee02a49cbb50637753</string>
 		</dict>
 	</array>
 </dict>
