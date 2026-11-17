@@ -54,6 +54,30 @@
 		<string>*.pyc</string>
 		<string>.DS_Store</string>
 	</array>
+	<key>tool</key>
+	<dict>
+		<key>brew</key>
+		<array>
+			<string>just</string>
+			<string>pnpm</string>
+			<string>node</string>
+			<string>jq</string>
+			<string>rsync</string>
+			<string>git</string>
+			<string>gh</string>
+			<string>lua</string>
+			<string>luarocks</string>
+			<string>rustup</string>
+			<string>go</string>
+			<string>cmake</string>
+			<string>llvm</string>
+			<string>lld</string>
+			<string>make</string>
+			<string>patchelf</string>
+			<string>gettext</string>
+			<string>elfutils</string>
+		</array>
+	</dict>
 	<key>repos</key>
 	<array>
 		<dict>
@@ -64,7 +88,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>97ae913648f69a846be3a1a1cbd50627c34f3e97</string>
+			<string>c1892196048b88f16b7c96de97a76eb984c78337</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -84,7 +108,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>f4016165cdcbd3adc1e4c9a853eec2925b4c0053</string>
+			<string>e7a5fad7ffd356c6b742e6805c467577e3ef0ddb</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -152,7 +176,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>bc9501010b13f18fd35c2decc95365627703d9fb</string>
+			<string>3cc2a54faf2677ae160b5449185d9f919d68ffe4</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -163,6 +187,14 @@
 			<string>main</string>
 			<key>commit</key>
 			<string>b74013f09d718d0f1bf98d95f118dea8ad1e3029</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>ios-webusb</string>
+			<key>upstream</key>
+			<string>https://github.com/jbisfun/ios-webusb</string>
+			<key>branch</key>
+			<string>main</string>
 		</dict>
 	</array>
 </dict>
