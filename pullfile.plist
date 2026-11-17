@@ -40,8 +40,9 @@
 	<dict>
 		<key>precommit</key>
 		<array>
-			<string>cp &quot;$PULL_ROOT/pullfile.plist&quot; &quot;$PULL_ROOT/dotenv/pullfile.plist&quot; &amp;&amp; git -C &quot;$PULL_ROOT/dotenv&quot; add pullfile.plist</string>
-			<string>just --justfile &quot;$PULL_ROOT/wiki/justfile&quot; publish</string>
+			<string>cp "$PULL_ROOT/pullfile.plist" "$PULL_ROOT/dotenv/pullfile.plist" &amp;&amp; git -C "$PULL_ROOT/dotenv" add pullfile.plist</string>
+			<string>radar export &gt;/dev/null &amp;&amp; git -C "$PULL_ROOT/issues" add -A docs radar.db</string>
+			<string>just --justfile "$PULL_ROOT/wiki/justfile" publish</string>
 		</array>
 		<key>postcommit</key>
 		<array/>
@@ -108,7 +109,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>4cd00b2dbf944a4bf36b5b88be8355f753835564</string>
+			<string>f92461f9d919fef5bebaa5acd2396db181c7310c</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -176,7 +177,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>9301fc3d9374c502cb69dbb067a83b85236d0315</string>
+			<string>53431b23299fb260234fb4467e9618a823c25694</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -203,6 +204,22 @@
 			<string>idl</string>
 			<key>upstream</key>
 			<string>https://github.com/jbisfun/idl</string>
+			<key>branch</key>
+			<string>main</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>radar</string>
+			<key>upstream</key>
+			<string>https://github.com/jbisfun/radar</string>
+			<key>branch</key>
+			<string>main</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>issues</string>
+			<key>upstream</key>
+			<string>https://github.com/jbisfun/issues</string>
 			<key>branch</key>
 			<string>main</string>
 		</dict>
