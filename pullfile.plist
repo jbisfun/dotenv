@@ -40,7 +40,7 @@
 	<dict>
 		<key>precommit</key>
 		<array>
-			<string>cp "$PULL_ROOT/pullfile.plist" "$PULL_ROOT/dotenv/pullfile.plist" &amp;&amp; git -C "$PULL_ROOT/dotenv" add pullfile.plist</string>
+			<string>cp &quot;$PULL_ROOT/pullfile.plist&quot; &quot;$PULL_ROOT/dotenv/pullfile.plist&quot; &amp;&amp; git -C &quot;$PULL_ROOT/dotenv&quot; add pullfile.plist</string>
 		</array>
 		<key>postcommit</key>
 		<array/>
@@ -57,7 +57,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>f81f396592dc8a2bcb697e49b16b0b4cd6fe9e9e</string>
+			<string>a37aafeb3db492a310cc20c944c8511418507764</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -74,6 +74,24 @@
 			<string>dotenv</string>
 			<key>upstream</key>
 			<string>https://github.com/jbisfun/dotenv.git</string>
+			<key>branch</key>
+			<string>main</string>
+			<key>commit</key>
+			<string>5cf3113197f754a08d66ea27779fefa02ac64aa9</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>ycode-pull</string>
+			<key>upstream</key>
+			<string>https://github.com/jbisfun/ycode-pull.git</string>
+			<key>branch</key>
+			<string>main</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>ycode-offline</string>
+			<key>upstream</key>
+			<string>https://github.com/jbisfun/ycode-offline.git</string>
 			<key>branch</key>
 			<string>main</string>
 		</dict>
