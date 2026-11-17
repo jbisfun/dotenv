@@ -83,7 +83,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>b83057d7e360445e4237753a6e1aabb17b16ff36</string>
+			<string>dc69a7de13755f25a3263e62d6a8443921f554c4</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -122,6 +122,14 @@
 			<string>https://github.com/apple-opensource/launchd.git</string>
 			<key>branch</key>
 			<string>master</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>ycode-manager</string>
+			<key>upstream</key>
+			<string>https://github.com/jbisfun/ycode-manager.git</string>
+			<key>branch</key>
+			<string>main</string>
 		</dict>
 	</array>
 </dict>
