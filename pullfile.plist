@@ -77,7 +77,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>eb0cf4f3603590dcdb3935ebd596ecbded9f30e5</string>
+			<string>f527de9a5bac3cee76d96983dc1ff55dd4d8c573</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -86,6 +86,8 @@
 			<string>https://github.com/jbisfun/ycode-pull.git</string>
 			<key>branch</key>
 			<string>main</string>
+			<key>commit</key>
+			<string>a7e7a550c6084e0f03c152ab3c68f91b17cf1844</string>
 		</dict>
 		<dict>
 			<key>name</key>
