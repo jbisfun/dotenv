@@ -40,9 +40,9 @@
 	<dict>
 		<key>precommit</key>
 		<array>
-			<string>cp "$PULL_ROOT/pullfile.plist" "$PULL_ROOT/dotenv/pullfile.plist" &amp;&amp; git -C "$PULL_ROOT/dotenv" add pullfile.plist</string>
-			<string>radar export &gt;/dev/null &amp;&amp; git -C "$PULL_ROOT/issues" add -A radar.db</string>
-			<string>just --justfile "$PULL_ROOT/wiki/justfile" publish</string>
+			<string>cp &quot;$PULL_ROOT/pullfile.plist&quot; &quot;$PULL_ROOT/dotenv/pullfile.plist&quot; &amp;&amp; git -C &quot;$PULL_ROOT/dotenv&quot; add pullfile.plist</string>
+			<string>radar export &gt;/dev/null &amp;&amp; git -C &quot;$PULL_ROOT/issues&quot; add -A radar.db</string>
+			<string>just --justfile &quot;$PULL_ROOT/wiki/justfile&quot; publish</string>
 		</array>
 		<key>postcommit</key>
 		<array/>
@@ -109,7 +109,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>433916b0a547ad9d9f4093763417b1a3d433cee0</string>
+			<string>1f517cb8a5b54980bb24b9a32ece2d45e62cde82</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -177,7 +177,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>6c9024a09cbe28d9b7586cfcc42ab7039092bf60</string>
+			<string>8e796c33bd31d3c5a8b2e93da6d0acd54252a042</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -215,7 +215,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>5287e7147d11daa664338d02e300e467ddf571d1</string>
+			<string>4a39deb022fa6fb33b19d3a86981420b309b240f</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -225,7 +225,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>085cb6ddf1948d41ef176ca2b8f24b027ef439c9</string>
+			<string>dd0b6099fe9cfc39eb2345ce268784395f6b3792</string>
 		</dict>
 	</array>
 </dict>
