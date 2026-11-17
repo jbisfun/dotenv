@@ -40,9 +40,9 @@
 	<dict>
 		<key>precommit</key>
 		<array>
-			<string>cp &quot;$PULL_ROOT/pullfile.plist&quot; &quot;$PULL_ROOT/dotenv/pullfile.plist&quot; &amp;&amp; git -C &quot;$PULL_ROOT/dotenv&quot; add pullfile.plist</string>
-			<string>radar export &gt;/dev/null &amp;&amp; git -C &quot;$PULL_ROOT/issues&quot; add -A docs radar.db</string>
-			<string>just --justfile &quot;$PULL_ROOT/wiki/justfile&quot; publish</string>
+			<string>cp "$PULL_ROOT/pullfile.plist" "$PULL_ROOT/dotenv/pullfile.plist" &amp;&amp; git -C "$PULL_ROOT/dotenv" add pullfile.plist</string>
+			<string>radar export &gt;/dev/null &amp;&amp; git -C "$PULL_ROOT/issues" add -A radar.db</string>
+			<string>just --justfile "$PULL_ROOT/wiki/justfile" publish</string>
 		</array>
 		<key>postcommit</key>
 		<array/>
@@ -109,7 +109,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>9bf0d05904c00fc66162a75e154eb9f891101af3</string>
+			<string>433916b0a547ad9d9f4093763417b1a3d433cee0</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -119,7 +119,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>983e685e7c2b0d2dfc126ac1125e0499815c4f3d</string>
+			<string>a2ef2e6ea6ff07b933f4d26c37b26a3038116c6d</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -129,7 +129,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>bee770556660d413fe34575e1022be3d90394476</string>
+			<string>7a07218267b7bc1741829894a5a24941cfc971a5</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -139,7 +139,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>a761de8f14a51cd7e7eae8fe1b722acebfad9435</string>
+			<string>275b0c94b715635b681fd11b2440f1bc3931f586</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -157,7 +157,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>bb9207e96b93d2842547761dfa526ffe6d97d091</string>
+			<string>db2f83e72c244eb396994754081dbe8ee4287113</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -177,7 +177,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>6dda8f8322956a74900331059b3bef77f2634313</string>
+			<string>6c9024a09cbe28d9b7586cfcc42ab7039092bf60</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -197,7 +197,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>8420f0d51654f24179aae605742ada0c29d2a3df</string>
+			<string>519b4d6b265307018a413d566bf821f3fbd951b4</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -225,7 +225,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>1625b4feb6beaa4187e59298a0b080d3c474ab6a</string>
+			<string>085cb6ddf1948d41ef176ca2b8f24b027ef439c9</string>
 		</dict>
 	</array>
 </dict>
