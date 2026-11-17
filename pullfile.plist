@@ -2,13 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>identity</key>
-	<dict>
-		<key>email</key>
-		<string>none</string>
-		<key>require_signing</key>
-		<false/>
-	</dict>
 	<key>env</key>
 	<dict>
 		<key>path</key>
@@ -25,97 +18,110 @@
 			<string>~/.config/zed/hooks</string>
 		</dict>
 	</dict>
-	<key>lint</key>
-	<dict>
-		<key>no_description</key>
-		<true/>
-		<key>max_subject_length</key>
-		<integer>40</integer>
-		<key>conventional</key>
-		<false/>
-		<key>no_trailing_period</key>
-		<false/>
-	</dict>
 	<key>hooks</key>
 	<dict>
-		<key>precommit</key>
-		<array>
-			<string>cp &quot;$PULL_ROOT/pullfile.plist&quot; &quot;$PULL_ROOT/dotenv/pullfile.plist&quot; &amp;&amp; git -C &quot;$PULL_ROOT/dotenv&quot; add pullfile.plist</string>
-		</array>
 		<key>postcommit</key>
 		<array/>
+		<key>precommit</key>
+		<array>
+			<string>cp "$PULL_ROOT/pullfile.plist" "$PULL_ROOT/dotenv/pullfile.plist" &amp;&amp; git -C "$PULL_ROOT/dotenv" add pullfile.plist</string>
+		</array>
 		<key>pull</key>
 		<array/>
+	</dict>
+	<key>identity</key>
+	<dict>
+		<key>email</key>
+		<string>none</string>
+		<key>require_signing</key>
+		<false/>
+	</dict>
+	<key>ignore</key>
+	<array>
+		<string>__pycache__/</string>
+		<string>*.pyc</string>
+		<string>.DS_Store</string>
+	</array>
+	<key>lint</key>
+	<dict>
+		<key>conventional</key>
+		<false/>
+		<key>max_subject_length</key>
+		<integer>40</integer>
+		<key>no_description</key>
+		<true/>
+		<key>no_trailing_period</key>
+		<false/>
 	</dict>
 	<key>repos</key>
 	<array>
 		<dict>
-			<key>name</key>
-			<string>pull</string>
-			<key>upstream</key>
-			<string>https://github.com/jbisfun/pull.git</string>
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
 			<string>4158c392b5951807b561623f152bee29dba81cd9</string>
+			<key>name</key>
+			<string>pull</string>
+			<key>upstream</key>
+			<string>https://github.com/jbisfun/pull.git</string>
 		</dict>
 		<dict>
-			<key>name</key>
-			<string>ycode</string>
-			<key>upstream</key>
-			<string>https://github.com/jbisfun/ycode.git</string>
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
 			<string>34176d9ea4dd1442ef7a394be83b0cafc0266e90</string>
+			<key>name</key>
+			<string>ycode</string>
+			<key>upstream</key>
+			<string>https://github.com/jbisfun/ycode.git</string>
 		</dict>
 		<dict>
+			<key>branch</key>
+			<string>main</string>
+			<key>commit</key>
+			<string>84880f7474f8b467bb694378cbdcc37d435e61b1</string>
 			<key>name</key>
 			<string>dotenv</string>
 			<key>upstream</key>
 			<string>https://github.com/jbisfun/dotenv.git</string>
-			<key>branch</key>
-			<string>main</string>
-			<key>commit</key>
-			<string>ceee2abfd1ea59ee539a16af7721eb4d3fc15afb</string>
 		</dict>
 		<dict>
-			<key>name</key>
-			<string>ycode-pull</string>
-			<key>upstream</key>
-			<string>https://github.com/jbisfun/ycode-pull.git</string>
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
 			<string>a7e7a550c6084e0f03c152ab3c68f91b17cf1844</string>
+			<key>name</key>
+			<string>ycode-pull</string>
+			<key>upstream</key>
+			<string>https://github.com/jbisfun/ycode-pull.git</string>
 		</dict>
 		<dict>
-			<key>name</key>
-			<string>ycode-offline</string>
-			<key>upstream</key>
-			<string>https://github.com/jbisfun/ycode-offline.git</string>
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
 			<string>bee770556660d413fe34575e1022be3d90394476</string>
+			<key>name</key>
+			<string>ycode-offline</string>
+			<key>upstream</key>
+			<string>https://github.com/jbisfun/ycode-offline.git</string>
 		</dict>
 		<dict>
+			<key>branch</key>
+			<string>main</string>
+			<key>commit</key>
+			<string>445ea0aaa50e885700da325dd00912f52dcdcec9</string>
 			<key>name</key>
 			<string>ycode-hermes</string>
 			<key>upstream</key>
 			<string>https://github.com/jbisfun/ycode-hermes.git</string>
-			<key>branch</key>
-			<string>main</string>
-			<key>commit</key>
-			<string>3823e9b464f97428c51930e5d66cba844bb6f986</string>
 		</dict>
 		<dict>
+			<key>branch</key>
+			<string>master</string>
 			<key>name</key>
 			<string>launchd</string>
 			<key>upstream</key>
 			<string>https://github.com/apple-opensource/launchd.git</string>
-			<key>branch</key>
-			<string>master</string>
 		</dict>
 	</array>
 </dict>
