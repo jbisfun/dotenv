@@ -84,7 +84,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>8e26211e808908633c9df6668b2b687980b16743</string>
+			<string>f4016165cdcbd3adc1e4c9a853eec2925b4c0053</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -152,7 +152,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>73e71c83d5641e01629e6de48336c24af73bead4</string>
+			<string>bc9501010b13f18fd35c2decc95365627703d9fb</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -161,6 +161,8 @@
 			<string>https://github.com/jbisfun/tool</string>
 			<key>branch</key>
 			<string>main</string>
+			<key>commit</key>
+			<string>b74013f09d718d0f1bf98d95f118dea8ad1e3029</string>
 		</dict>
 	</array>
 </dict>
