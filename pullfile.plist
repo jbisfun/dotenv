@@ -83,7 +83,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>3f0b7191a70c2f6e1592274f24dd69288bfb270e</string>
+			<string>37d1877a7bde7063a0160392d0d8aebee02e4fc2</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -130,6 +130,8 @@
 			<string>https://github.com/jbisfun/ycode-manager.git</string>
 			<key>branch</key>
 			<string>main</string>
+			<key>commit</key>
+			<string>9071b4f6be2b1df0188820b57525c596bbe6f668</string>
 		</dict>
 	</array>
 </dict>
