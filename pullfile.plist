@@ -55,6 +55,16 @@
 		<string>*.pyc</string>
 		<string>.DS_Store</string>
 	</array>
+	<key>mcp_servers</key>
+	<dict>
+		<key>radar</key>
+		<dict>
+			<key>args</key>
+			<array>
+				<string>mcp</string>
+			</array>
+		</dict>
+	</dict>
 	<key>tool</key>
 	<dict>
 		<key>brew</key>
@@ -89,7 +99,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>c1892196048b88f16b7c96de97a76eb984c78337</string>
+			<string>75ae20e58a026ce20c4555c32f25a7a90b083f74</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -109,7 +119,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>46fdaa23f7d9f7fd6bb4531df245600d30b956b4</string>
+			<string>cc1e1dfe2b0b48e0a0eaa2676078d575ce913f92</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -177,7 +187,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>069a01afad4aa4a2a82499c0a49efd47d00203ee</string>
+			<string>ee27b5f790b18c18d627f491292437956e380f10</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -227,7 +237,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>75862f920ccfa7f5bb8a9e95d7e1b8e7c0af4ff8</string>
+			<string>16135ae4541dac8706676ab40f9f70de4cf9b94b</string>
 		</dict>
 	</array>
 </dict>
