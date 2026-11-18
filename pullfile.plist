@@ -119,7 +119,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>d472493cd539a62128de704e72495a2dfb800f02</string>
+			<string>9946fbc569146806379cea7ab9655a2f9f890665</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -187,7 +187,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>53a72b73e60ab60250bac8319295d83208772c64</string>
+			<string>206712d68a6d8457daac2010e8fe4e81a74e60cc</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -237,13 +237,63 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>35edaf7aecebfc781cc466f84979a96834d96057</string>
+			<string>a38985bf68cb194ed99448554bb8bfdb8b4b38ae</string>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>ycode-idl</string>
 			<key>upstream</key>
 			<string>https://github.com/jbisfun/ycode-idl</string>
+			<key>branch</key>
+			<string>main</string>
+			<key>commit</key>
+			<string>5a12ed4788bc9b55833eac5a9b25e394047396b2</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>omnisette</string>
+			<key>upstream</key>
+			<string>https://github.com/jbisfun/omnisette</string>
+			<key>branch</key>
+			<string>main</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>FairplayedKit</string>
+			<key>upstream</key>
+			<string>https://github.com/jbisfun/FairplayedKit</string>
+			<key>branch</key>
+			<string>main</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>AppStoreAuth</string>
+			<key>upstream</key>
+			<string>https://github.com/jbisfun/AppStoreAuth</string>
+			<key>branch</key>
+			<string>main</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>xkit</string>
+			<key>upstream</key>
+			<string>https://github.com/jbisfun/xkit</string>
+			<key>branch</key>
+			<string>main</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>MacADICore</string>
+			<key>upstream</key>
+			<string>https://github.com/jbisfun/MacADICore</string>
+			<key>branch</key>
+			<string>main</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>apple-codesign</string>
+			<key>upstream</key>
+			<string>https://github.com/jbisfun/apple-codesign</string>
 			<key>branch</key>
 			<string>main</string>
 		</dict>
