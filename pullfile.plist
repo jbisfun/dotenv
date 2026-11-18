@@ -109,7 +109,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>dc6b5e17494e0080a5cf45b3967a72f121d9e9ec</string>
+			<string>94bf069a4ea49badf783fa71c579e7e3d240f99c</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -119,7 +119,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>b73727ad545900796083a79397a6be90a93adc29</string>
+			<string>807f212d361d00297a9562627ff4690028ccf000</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -129,7 +129,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>2a1850152c113f78575bb24bd02b40e063ca1925</string>
+			<string>be1884866100ff186b26d9f4308af2d2242a746e</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -177,7 +177,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>05c66699d2e1e6c1a197347f6b4a20353b52e1d5</string>
+			<string>b95902a7dcfd35725353be7238fccaeb8f39f869</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -187,7 +187,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>b41b6c6b33a6db1587c4a9de1d41b7c49cf778bb</string>
+			<string>ec4a156955efb661dd52e01e05441720affc7658</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -197,7 +197,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>b74013f09d718d0f1bf98d95f118dea8ad1e3029</string>
+			<string>477fbcef4d2d5af3858bb85d574de0036c149baa</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -237,7 +237,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>210831c70a15406970c5b4d9a575b5db09951260</string>
+			<string>25a5bb86d4c7ff6ec6eb61d768d4a794f2dc173d</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -247,7 +247,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>c220bcf88b4dea736d6b34b6a4eced89ab09d48f</string>
+			<string>01f594f8b8644ffb7292c8e3ddf2cb850da8c36b</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -296,6 +296,8 @@
 			<string>https://github.com/jbisfun/apple-codesign</string>
 			<key>branch</key>
 			<string>main</string>
+			<key>commit</key>
+			<string>378efea9a1557ec8c743a168e46fa175ab5855c9</string>
 		</dict>
 	</array>
 </dict>
