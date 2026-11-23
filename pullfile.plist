@@ -119,7 +119,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>b361fe22f42b549bd38dd8fdb23893daa2e0534a</string>
+			<string>5616c7c031a872d647705db25b68a788897ac071</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -187,7 +187,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>59d38ebb4186620924c162118adf3921a389cd53</string>
+			<string>d1080753a65f3a710524853488bb8124109c89e1</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -237,7 +237,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>f47cd98d88974d9025dea17d676c059fdd5fe4e3</string>
+			<string>c583c0560800e1991b62e98a06235e446a7cb8fc</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -308,6 +308,14 @@
 			<string>main</string>
 			<key>commit</key>
 			<string>9b938ca82f5d155f891485264a03df5ef5bccb71</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>fossify-ios/contacts-ios</string>
+			<key>upstream</key>
+			<string>https://github.com/jbisfun/contacts-ios</string>
+			<key>branch</key>
+			<string>main</string>
 		</dict>
 	</array>
 </dict>
