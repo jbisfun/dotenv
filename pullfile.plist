@@ -119,7 +119,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>af834d3b77cc66870a9f2f34b41790350de3c82e</string>
+			<string>364f12b65b43a47f618795af6f8d3b90c98f22f2</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -187,7 +187,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>b24d0b40fb38c6b50b6f27c1e3efe1a0872d54dc</string>
+			<string>b00e97a39b427e6d0ebc5e5cb674fc08d8294b9d</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -237,7 +237,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>e8a52a2c098b5fdb015573141754d51d3e2381d6</string>
+			<string>6dc02bab5c8276771a3ecac2e58ea2fca99ec1fb</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -324,6 +324,16 @@
 			<string>fossify-ios/calculator-ios</string>
 			<key>upstream</key>
 			<string>https://github.com/jbisfun/calculator-ios</string>
+			<key>branch</key>
+			<string>main</string>
+			<key>commit</key>
+			<string>75b715eeb0b53b7998cb4f6393c23720d74b41e4</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>fossify-ios/commons-ios</string>
+			<key>upstream</key>
+			<string>https://github.com/jbisfun/commons-ios</string>
 			<key>branch</key>
 			<string>main</string>
 		</dict>
