@@ -119,7 +119,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>87bb25d695ae198c6b086119dfafeb0d0612b1e8</string>
+			<string>af834d3b77cc66870a9f2f34b41790350de3c82e</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -187,7 +187,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>b30e0c50040a3dcc03e2ece29c1b1a61422e8f30</string>
+			<string>b24d0b40fb38c6b50b6f27c1e3efe1a0872d54dc</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -237,7 +237,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>8e743e22c27f3ca49b86d3c1b3f89cd8421ae690</string>
+			<string>e8a52a2c098b5fdb015573141754d51d3e2381d6</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -317,7 +317,15 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>927365dcaf2d8bad72f764be722c5ee9c805e556</string>
+			<string>ad3f78381eed0136b11859117922d9cc57c3cefd</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>fossify-ios/calculator-ios</string>
+			<key>upstream</key>
+			<string>https://github.com/jbisfun/calculator-ios</string>
+			<key>branch</key>
+			<string>main</string>
 		</dict>
 	</array>
 </dict>
