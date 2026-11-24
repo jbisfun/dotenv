@@ -119,7 +119,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>3d283383f0723e38853759d87316471ad92f3b4b</string>
+			<string>d6926e39b4a15e7f5896d1332c48e55d7307d146</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -187,7 +187,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>8872f7d63f55e6eea47cb6c9a757f381bcce7433</string>
+			<string>dab927c091b508589fa29b407beb3a2fb0677e47</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -237,7 +237,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>bb2acdd9b31dea06e23a2ce06bcbed8b72daaf85</string>
+			<string>798af268709a4afaca7bab5e2b84e8619094b2d3</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -396,6 +396,8 @@
 			<string>https://github.com/jbisfun/camera-ios</string>
 			<key>branch</key>
 			<string>main</string>
+			<key>commit</key>
+			<string>61683ea2f02bed8f5c512108ff051ec5dc0c6cb7</string>
 		</dict>
 		<dict>
 			<key>name</key>
