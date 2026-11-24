@@ -64,6 +64,13 @@
 				<string>mcp</string>
 			</array>
 		</dict>
+		<key>idlci</key>
+		<dict>
+			<key>args</key>
+			<array>
+				<string>mcp</string>
+			</array>
+		</dict>
 	</dict>
 	<key>tool</key>
 	<dict>
@@ -119,7 +126,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>5b553924f1a5a49d886815282012bff355e8582a</string>
+			<string>3fb35db0e20a46e616e42da011170b21219a6914</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -177,7 +184,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>7ed1e82140c7d22e3b0693ad59677b270b21f7ec</string>
+			<string>7622c3d15a0a510335c84c5eff03a7f72f612ab9</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -187,7 +194,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>701abbf06135d8e7527a3929ab3817531eaebcf2</string>
+			<string>71fb7acde12d5c5199443e223d42631dcf715e0c</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -237,7 +244,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>980afd6a8d005c7e95cbffd938ceee5b463ae311</string>
+			<string>b3220a991e6e45cd52ad25c9ce3b4bdfd3f20434</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -518,6 +525,14 @@
 			<string>main</string>
 			<key>commit</key>
 			<string>423b0c952106f922a13c4f1dd434dd9b68aa4d4a</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>idlci</string>
+			<key>upstream</key>
+			<string>https://github.com/jbisfun/idlci</string>
+			<key>branch</key>
+			<string>main</string>
 		</dict>
 	</array>
 </dict>
