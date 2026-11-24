@@ -119,7 +119,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>3a3a80918bed0d52444d1c3694fd115fdbfa7334</string>
+			<string>fbc4b8b6323691223517dd2a8ddf671427677de0</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -187,7 +187,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>d6a640d678ada5c6c01309eb9f99ad5de4bbd88f</string>
+			<string>c12e50b48167c539ac6c82fd6eaf1a42f5c20ef2</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -237,7 +237,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>af5545bf572aad27c490a66e8dfd49ed51f6397c</string>
+			<string>8fb0f018956a463a3bbd3c2171ae3105f1ac5ebd</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -416,6 +416,8 @@
 			<string>https://github.com/jbisfun/file-manager-ios</string>
 			<key>branch</key>
 			<string>main</string>
+			<key>commit</key>
+			<string>fe9feff231fba98dcd2cd9d02b96b945dfab3df7</string>
 		</dict>
 		<dict>
 			<key>name</key>
