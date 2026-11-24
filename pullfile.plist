@@ -119,7 +119,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>0003aa024bfa0ae91353c82949e0471f9e51f1af</string>
+			<string>28aea728a43d48569e511c8d8b64d7661b6294be</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -187,7 +187,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>7cc95316221c1d8d1b043fd088cc767b1359f4da</string>
+			<string>2f4ebfacbd2bf5b679ea3d943398a0560e839429</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -237,7 +237,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>6d244d2bc716e481ec491dddbff6f317a0c3f552</string>
+			<string>138272240c82f6d825bce8ef9b537adc60b295c7</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -376,6 +376,8 @@
 			<string>https://github.com/jbisfun/calendar-ios</string>
 			<key>branch</key>
 			<string>main</string>
+			<key>commit</key>
+			<string>0004f983b625466dd501dc4675c0f8058dd61524</string>
 		</dict>
 		<dict>
 			<key>name</key>
