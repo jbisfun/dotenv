@@ -119,7 +119,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>5a308c88f02c4f2e20e70a4b7c8ab466ecf1af2b</string>
+			<string>07b9737cd5b04d59762628edcbc5eaebc5235340</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -187,7 +187,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>3f1e18d6a44a261bc76f1d5ca4f8515555a65e69</string>
+			<string>432d795d97fbc7794c71e3eea8ed7a728676eb97</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -237,7 +237,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>21811c0d13b29262e063c33572751c0d06438692</string>
+			<string>0586feeb4a600ab3c0c33f7b7ff20655d13c9ec1</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -466,6 +466,8 @@
 			<string>https://github.com/jbisfun/keyboard-ios</string>
 			<key>branch</key>
 			<string>main</string>
+			<key>commit</key>
+			<string>95915c9800bf2aecb890b05830a190942bb29360</string>
 		</dict>
 		<dict>
 			<key>name</key>
