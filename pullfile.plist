@@ -119,7 +119,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>8868163b61843f820d3b122590422b5415d57625</string>
+			<string>161ae75a383de94d31b7bc13ab02812e4a4b22a9</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -187,7 +187,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>686a0ec0f26884bac1422f58c95456ae7a32d99a</string>
+			<string>93b6d3cd89dc2374bf5667f2e6daadb2defbe356</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -237,7 +237,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>3279ac6ae67f2b89b1da29f41b87608e4a7b7a3b</string>
+			<string>45a8bcb422a6c7e16e009f70d5480211bf983860</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -347,7 +347,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>650da6a2216ea28755c0f0fcd8f7c07d669a570d</string>
+			<string>2d044defdc67290dbe9bd6a8d2eb07cb095e0618</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -488,6 +488,30 @@
 			<string>main</string>
 			<key>commit</key>
 			<string>ece05d8e1b5048e444e19ef60cadeaeb7694b834</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>fossify-ios/settings-ios</string>
+			<key>upstream</key>
+			<string>https://github.com/jbisfun/settings-ios</string>
+			<key>branch</key>
+			<string>main</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>fossify-ios/browser-ios</string>
+			<key>upstream</key>
+			<string>https://github.com/jbisfun/browser-ios</string>
+			<key>branch</key>
+			<string>main</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>fossify-ios/widgets-ios</string>
+			<key>upstream</key>
+			<string>https://github.com/jbisfun/widgets-ios</string>
+			<key>branch</key>
+			<string>main</string>
 		</dict>
 	</array>
 </dict>
