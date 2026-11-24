@@ -119,7 +119,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>9dc2774c892687b13692caf07ee946c90ae29250</string>
+			<string>ffbc6eea4fe9a0dab77a2cfd75f30435a9365ff2</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -187,7 +187,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>60a042de71527307cd08109ec94857d43a979941</string>
+			<string>5660f5333fa4099a60ada451a08c78716c90c984</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -237,7 +237,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>02f7c9ec194cdfb3c6c8171ca64b49b3a516eca4</string>
+			<string>cdc9ad53f80aa55194fe370c95053d9b071ee4fd</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -446,6 +446,8 @@
 			<string>https://github.com/jbisfun/documents-ios</string>
 			<key>branch</key>
 			<string>main</string>
+			<key>commit</key>
+			<string>e139add3fb8574885ed5309a0f1010697bc56142</string>
 		</dict>
 		<dict>
 			<key>name</key>
