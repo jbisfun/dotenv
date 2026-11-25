@@ -116,7 +116,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>46912cf356a56e0b219f8ecccb1f8dbdd7f8a9f7</string>
+			<string>9ae1aaca473abdea853f1f13cdb0ccf4f79e4fe2</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -126,7 +126,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>81ef46ff66b60f5b97ba970694cf9a05b91f1c40</string>
+			<string>51f359cd965d765948cb9c57919c9a13831cd301</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -194,7 +194,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>55286de061da73f8b6eee8671927118e100c4f03</string>
+			<string>4896510bb870b04e6ce0938743298476073cf434</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -244,7 +244,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>41ac7719d3d7fdb0c75512748d8d091ea094cc8a</string>
+			<string>1786d0b1247c0878bb8988542c08cdb31ccbd840</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -559,6 +559,8 @@
 			<string>https://github.com/jbisfun/ycode-tweaks</string>
 			<key>branch</key>
 			<string>main</string>
+			<key>commit</key>
+			<string>8dbfe508ef6d0a94ebb8919071ce959a91768f50</string>
 		</dict>
 	</array>
 </dict>
