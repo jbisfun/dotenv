@@ -126,7 +126,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>bb34c64c9382aaad20564e503f71bf2f664924b7</string>
+			<string>81ef46ff66b60f5b97ba970694cf9a05b91f1c40</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -194,7 +194,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>a8b84b5de2e54e4021fd0c65b56f3d56bda3a49d</string>
+			<string>55286de061da73f8b6eee8671927118e100c4f03</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -224,7 +224,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>9f91e3d1cac59dbc2e69f425ef92e65aae14fad7</string>
+			<string>5f8e0dc479e9f0ba4cfcc9b8a83546fcfb625a23</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -244,7 +244,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>87ce922b7b075c956b8b0536f63fecda2ac1da43</string>
+			<string>41ac7719d3d7fdb0c75512748d8d091ea094cc8a</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -535,6 +535,30 @@
 			<string>main</string>
 			<key>commit</key>
 			<string>0851dfbc8c49e33fd980a8db18f48caf2927e47e</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>ferry</string>
+			<key>upstream</key>
+			<string>https://github.com/jbisfun/ferry</string>
+			<key>branch</key>
+			<string>master</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>ferry-ios</string>
+			<key>upstream</key>
+			<string>https://github.com/jbisfun/ferry-ios</string>
+			<key>branch</key>
+			<string>master</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>ycode-tweaks</string>
+			<key>upstream</key>
+			<string>https://github.com/jbisfun/ycode-tweaks</string>
+			<key>branch</key>
+			<string>main</string>
 		</dict>
 	</array>
 </dict>
