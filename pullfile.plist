@@ -41,8 +41,7 @@
 		<key>precommit</key>
 		<array>
 			<string>cp &quot;$PULL_ROOT/pullfile.plist&quot; &quot;$PULL_ROOT/dotenv/pullfile.plist&quot; &amp;&amp; git -C &quot;$PULL_ROOT/dotenv&quot; add pullfile.plist</string>
-			<string>radar export &gt;/dev/null &amp;&amp; git -C &quot;$PULL_ROOT/issues&quot; add -A radar.db</string>
-			<string>just --justfile &quot;$PULL_ROOT/wiki/justfile&quot; publish</string>
+			<string>cpull wiki publish</string>
 		</array>
 		<key>postcommit</key>
 		<array/>
@@ -55,23 +54,6 @@
 		<string>*.pyc</string>
 		<string>.DS_Store</string>
 	</array>
-	<key>mcp_servers</key>
-	<dict>
-		<key>radar</key>
-		<dict>
-			<key>args</key>
-			<array>
-				<string>mcp</string>
-			</array>
-		</dict>
-		<key>idlci</key>
-		<dict>
-			<key>args</key>
-			<array>
-				<string>mcp</string>
-			</array>
-		</dict>
-	</dict>
 	<key>tool</key>
 	<dict>
 		<key>brew</key>
@@ -98,22 +80,6 @@
 	</dict>
 	<key>jobs</key>
 	<array>
-		<dict>
-			<key>Label</key>
-			<string>idlci</string>
-			<key>ProgramArguments</key>
-			<array>
-				<string>idlci</string>
-				<string>serve</string>
-			</array>
-			<key>RunAtLoad</key>
-			<true/>
-			<key>KeepAlive</key>
-			<dict>
-				<key>SuccessfulExit</key>
-				<false/>
-			</dict>
-		</dict>
 		<dict>
 			<key>Label</key>
 			<string>cpull</string>
@@ -169,7 +135,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>217688d00a9cc51979b71bc30f46a718ce488f55</string>
+			<string>e9ccdaaf8b55f6560e2ca4b57c65f3fbd2900f73</string>
 		</dict>
 		<dict>
 			<key>name</key>
