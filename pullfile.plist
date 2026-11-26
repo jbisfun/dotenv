@@ -96,6 +96,49 @@
 			<string>elfutils</string>
 		</array>
 	</dict>
+	<key>jobs</key>
+	<array>
+		<dict>
+			<key>Label</key>
+			<string>idlci</string>
+			<key>ProgramArguments</key>
+			<array>
+				<string>idlci</string>
+				<string>serve</string>
+			</array>
+			<key>RunAtLoad</key>
+			<true/>
+			<key>KeepAlive</key>
+			<dict>
+				<key>SuccessfulExit</key>
+				<false/>
+			</dict>
+		</dict>
+		<dict>
+			<key>Label</key>
+			<string>haxy</string>
+			<key>ProgramArguments</key>
+			<array>
+				<string>pull</string>
+				<string>haxy</string>
+				<string>open</string>
+				<string>--web-listen</string>
+				<string>127.0.0.1:8080</string>
+			</array>
+			<key>RunAtLoad</key>
+			<true/>
+			<key>KeepAlive</key>
+			<dict>
+				<key>SuccessfulExit</key>
+				<false/>
+			</dict>
+		</dict>
+	</array>
+	<key>haxy</key>
+	<dict>
+		<key>events</key>
+		<string>dotenv</string>
+	</dict>
 	<key>repos</key>
 	<array>
 		<dict>
@@ -106,7 +149,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>9c47358c73a3b6a6c16ab822bd63d381cf26fd09</string>
+			<string>819a8466e33a657f82bdc8f167bad128b7c83a45</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -126,7 +169,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>adc838c11619f1500b566c67ea62f09d3c111110</string>
+			<string>58ace11eda67821ab4f76a21cb6d5f0d918f4991</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -136,7 +179,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>730c505142b4d8b720bb4821f3b2075c3aa7d016</string>
+			<string>1668e2c75a2758497772037bb4bdc6e7c5fa52d5</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -184,7 +227,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>7622c3d15a0a510335c84c5eff03a7f72f612ab9</string>
+			<string>6637162c895f785e4d0236c33f4319da104dae29</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -214,7 +257,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>2ed42b903727893d8fc851cd2a3f698b58121a3b</string>
+			<string>7564092d0ddbb9fdfb6673ad998138d4fff270a7</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -244,7 +287,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>cd44bdcc0e53aefcf14f80cd50a2b2d8256f3d19</string>
+			<string>8c2ee741c8bad1550ec95335411eadbd407e1c3f</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -271,6 +314,8 @@
 			<string>https://github.com/jbisfun/FairplayedKit</string>
 			<key>branch</key>
 			<string>main</string>
+			<key>commit</key>
+			<string>3bcea98f4b163cf866f82e02dd2f76a8056da241</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -295,6 +340,8 @@
 			<string>https://github.com/jbisfun/MacADICore</string>
 			<key>branch</key>
 			<string>main</string>
+			<key>commit</key>
+			<string>7452c14161408786d89399b2d9d4e69a00a78141</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -569,6 +616,8 @@
 			<string>https://github.com/jbisfun/haxy</string>
 			<key>branch</key>
 			<string>master</string>
+			<key>commit</key>
+			<string>98e5c317f5d50d4f14eeca52d6369e26a20d9a15</string>
 		</dict>
 	</array>
 </dict>
