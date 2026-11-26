@@ -116,11 +116,11 @@
 		</dict>
 		<dict>
 			<key>Label</key>
-			<string>haxy</string>
+			<string>cpull</string>
 			<key>ProgramArguments</key>
 			<array>
 				<string>pull</string>
-				<string>haxy</string>
+				<string>cpull</string>
 				<string>open</string>
 				<string>--web-listen</string>
 				<string>127.0.0.1:8080</string>
@@ -134,7 +134,7 @@
 			</dict>
 		</dict>
 	</array>
-	<key>haxy</key>
+	<key>cpull</key>
 	<dict>
 		<key>events</key>
 		<string>dotenv</string>
@@ -149,7 +149,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>819a8466e33a657f82bdc8f167bad128b7c83a45</string>
+			<string>737392b104e5b98e4bf4ab26ae2d1f33a9afb606</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -169,7 +169,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>58ace11eda67821ab4f76a21cb6d5f0d918f4991</string>
+			<string>217688d00a9cc51979b71bc30f46a718ce488f55</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -179,7 +179,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>1668e2c75a2758497772037bb4bdc6e7c5fa52d5</string>
+			<string>94f68ba2db353e5c4a0fc86dda681994ab7a43df</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -611,13 +611,13 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>haxy</string>
+			<string>cpull</string>
 			<key>upstream</key>
-			<string>https://github.com/jbisfun/haxy</string>
+			<string>https://github.com/jbisfun/cpull</string>
 			<key>branch</key>
 			<string>master</string>
 			<key>commit</key>
-			<string>98e5c317f5d50d4f14eeca52d6369e26a20d9a15</string>
+			<string>e569bec53fced2a7bdb87e708a1bb748badb71ea</string>
 		</dict>
 	</array>
 </dict>
