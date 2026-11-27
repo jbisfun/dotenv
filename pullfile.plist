@@ -41,7 +41,7 @@
 		<key>precommit</key>
 		<array>
 			<string>cp &quot;$PULL_ROOT/pullfile.plist&quot; &quot;$PULL_ROOT/dotenv/pullfile.plist&quot; &amp;&amp; git -C &quot;$PULL_ROOT/dotenv&quot; add pullfile.plist</string>
-			<string>cpull wiki publish</string>
+			<string>wiki publish</string>
 		</array>
 		<key>postcommit</key>
 		<array/>
@@ -54,6 +54,30 @@
 		<string>*.pyc</string>
 		<string>.DS_Store</string>
 	</array>
+	<key>mcp_servers</key>
+	<dict>
+		<key>idlci</key>
+		<dict>
+			<key>args</key>
+			<array>
+				<string>mcp</string>
+			</array>
+		</dict>
+		<key>wiki</key>
+		<dict>
+			<key>args</key>
+			<array>
+				<string>mcp</string>
+			</array>
+		</dict>
+		<key>radar</key>
+		<dict>
+			<key>args</key>
+			<array>
+				<string>mcp</string>
+			</array>
+		</dict>
+	</dict>
 	<key>tool</key>
 	<dict>
 		<key>brew</key>
@@ -99,6 +123,60 @@
 				<false/>
 			</dict>
 		</dict>
+		<dict>
+			<key>Label</key>
+			<string>idlci</string>
+			<key>ProgramArguments</key>
+			<array>
+				<string>idlci</string>
+				<string>serve</string>
+				<string>--listen</string>
+				<string>127.0.0.1:8737</string>
+			</array>
+			<key>RunAtLoad</key>
+			<true/>
+			<key>KeepAlive</key>
+			<dict>
+				<key>SuccessfulExit</key>
+				<false/>
+			</dict>
+		</dict>
+		<dict>
+			<key>Label</key>
+			<string>wiki</string>
+			<key>ProgramArguments</key>
+			<array>
+				<string>wiki</string>
+				<string>serve</string>
+				<string>--listen</string>
+				<string>127.0.0.1:8090</string>
+			</array>
+			<key>RunAtLoad</key>
+			<true/>
+			<key>KeepAlive</key>
+			<dict>
+				<key>SuccessfulExit</key>
+				<false/>
+			</dict>
+		</dict>
+		<dict>
+			<key>Label</key>
+			<string>radar</string>
+			<key>ProgramArguments</key>
+			<array>
+				<string>radar</string>
+				<string>serve</string>
+				<string>--listen</string>
+				<string>127.0.0.1:8746</string>
+			</array>
+			<key>RunAtLoad</key>
+			<true/>
+			<key>KeepAlive</key>
+			<dict>
+				<key>SuccessfulExit</key>
+				<false/>
+			</dict>
+		</dict>
 	</array>
 	<key>cpull</key>
 	<dict>
@@ -115,7 +193,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>918f5d355bcd2b6dce0d38c8e5dd6f27329ee08c</string>
+			<string>56ca64618f09231b2d81282b62e287c07c0c4b2c</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -135,7 +213,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>36f2d5bdfe718339049023d79d91912729cc1171</string>
+			<string>57ff4d0bd60787f63e1752a9db005ec8fd9a391c</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -145,7 +223,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>87a1ba55da42a806460e6d8dfb41f0ee7429172d</string>
+			<string>39a47d52a2d9a6181ffa0a172c4d345063c9e490</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -193,7 +271,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>74f6455d863f144efecb9343e0673a59522a54b4</string>
+			<string>f40385256b5f2ff3d33f86481cd376ad7c26360d</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -227,6 +305,14 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>ferry-webinstaller</string>
+			<key>upstream</key>
+			<string>https://github.com/jbisfun/ferry-webinstaller</string>
+			<key>branch</key>
+			<string>main</string>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>idl</string>
 			<key>upstream</key>
 			<string>https://github.com/jbisfun/idl</string>
@@ -243,7 +329,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>9d602ddcf1563d36e3aa336998f030d017b62a02</string>
+			<string>d0aa947b16deb1921791c46a2011ef5cf58738fc</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -327,7 +413,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>ecc9b983f583a7bf86ff7c6a2e2ad84d4ccc29d2</string>
+			<string>df04351c653915e8da147b86c7bb93e2bcc65dfd</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -547,7 +633,7 @@
 			<key>branch</key>
 			<string>main</string>
 			<key>commit</key>
-			<string>0851dfbc8c49e33fd980a8db18f48caf2927e47e</string>
+			<string>9f6a9fd5847687fd252a18c7ec702d5dcf49a16b</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -583,7 +669,15 @@
 			<key>branch</key>
 			<string>master</string>
 			<key>commit</key>
-			<string>54a0ec167f4987d48d21ee12aebf59ddfec38a4c</string>
+			<string>06c4e08c0709717d85b44f575d1c0a6fd1a2417b</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>theme</string>
+			<key>upstream</key>
+			<string>https://github.com/jbisfun/theme</string>
+			<key>branch</key>
+			<string>main</string>
 		</dict>
 	</array>
 </dict>
